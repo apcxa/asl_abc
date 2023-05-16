@@ -1,6 +1,6 @@
 # Project Name
 
- Add short description of project here > 
+This project uses still images to recognize different ASL letters.
 
 ![add image descrition here](direct image link here)
 
