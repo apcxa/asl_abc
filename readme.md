@@ -1,4 +1,4 @@
-# Project Name
+# ASL Translator Project 
 
 This project uses still images to recognize different ASL letters.
 
