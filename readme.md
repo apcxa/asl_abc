@@ -2,7 +2,7 @@
 
 This project uses still images to recognize different ASL letters.
 
-![result image of the model predicting a picture of the letter 'e'](https://imgur.com/H7EIlUD)
+![result image of the model predicting a picture of the letter 'e']<blockquote class="imgur-embed-pub" lang="en" data-id="H7EIlUD"><a href="https://imgur.com/H7EIlUD">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 
 ## The Algorithm
 
