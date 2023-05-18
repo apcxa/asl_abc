@@ -2,7 +2,9 @@
 
 This project uses still images to recognize different ASL letters.
 
-![result image of the model predicting a picture of the letter 'e'][Image of Working Model](https://imgur.com/H7EIlUD)
+![result image of the model predicting a picture of the letter 'e'][Image of Working Model]
+<img width="652" alt="Screenshot 2023-05-18 at 9 50 27 AM" src="https://github.com/apcxa/asl_abc/assets/133288638/80ff687f-109c-4c87-bec6-1384edc22109">
+
 
 ## The Algorithm
 
