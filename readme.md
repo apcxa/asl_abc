@@ -14,4 +14,4 @@ This model used a dataset from a GitHub project by LoicMarie (Project Name: Sign
 2. All required libraries in order to train the model are in the requirements.txt 
 3. Make sure your nano is set up and ready to go before you export it!
 
-[View a video explanation here](video link)
+[View a video explanation here]([video link](https://youtu.be/hMjLQokgAl8))
