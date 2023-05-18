@@ -15,4 +15,4 @@ This model used a dataset from a GitHub project by LoicMarie (Project Name: Sign
 3. Make sure your nano is set up and ready to go before you export it!
 4. Quick Tip: Pressing the up arrow will allow you to use the image prediction command multiple times without copying and pasting (you have to copy and paste it the first time)!
 
-[View a video explanation here]([Video of Working Model](https://youtu.be/hMjLQokgAl8))
+[View a video demonstration here]([Video of Working Model](https://youtu.be/hMjLQokgAl8))
