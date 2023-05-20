@@ -13,14 +13,26 @@ This model used a dataset from a GitHub project by LoicMarie (Project Name: Sign
 ## Running this project
 
 1. (optional for retraining model from scratch) Follow all the steps in the Google Colab - all steps for getting all the files, training the model, and exporting are all in there. [Google Colab Notebook Link - ASL](https://colab.research.google.com/drive/1ld_ep21-Ex49o_1cWYhzghTiafUBDQXk?usp=sharing)
-2. Make sure the jetson inference project is set up (set up jetson inference project linked here: [Jetson Inference GitHub](https://github.com/dusty-nv/jetson-inference))
-3. All required libraries in order to train the model are in the requirements.txt 
-4. Set NET variable in the terminal: `NET=model`
-5. Run this command to see how accurate your model is! You can run the Image Net model using the pre-trained network using the following command.
+---
+1. (to use the pre-trained model) first, make sure the jetson inference project is set up (set up jetson inference project linked here: [Jetson Inference GitHub](https://github.com/dusty-nv/jetson-inference))
+2. All required libraries in order to train the model are in the requirements.txt 
+3. Open Jetson Inference and in the terminal use the command `git clone https://github.com/apcxa/asl_abc.git`
+4. Using `ls`, you should see a folder named "asl_abc"
+5. Type `cd asl_abc/` to move directories.
+6. Using `ls`, you should see 8 files (nuswide.py, onnx_export.py, onnx_validate.py, readme.md, requirements.txt, reshape.py, train.py, voc.py) and a folder named "model" 
+7. Type "imagenet" and press TAB, NOT the ENTER or RETURN key (if you accidentally press enter or return, use control c to stop whatever program you set in motion and then type in the correct command.)
+8. You should see imagenet.py in the options that come up. We're just making sure we're in the right place.
+9. Set NET variable in the terminal: `NET=model`
+10. Run this command to see how accurate your model is! You can run the ImageNet model using the pre-trained network using the following command.
 
 `imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$NET/labels.txt input_file.jpg output_file.jpg
 `
 Substitute your input and output file names.
+
+Finding Your Input File Name: Drag and drop a test image or find an existing image if you downloaded the dataset. It is recommended to use a picture from the dataset to get the most accurate result, but you can test it on any image. Find the image wehre you drag and dropped it. Right click on the image and click "Copy Path". Paste into where "input_file.jpg" is in the command. 
+
+output_file.jpg is the name you want your ouput image to be. For example, Aresult1.jpg 
+
 
 6. Quick Tip: Pressing the up arrow will allow you to use the image prediction command multiple times without copying and pasting (you have to copy and paste it the first time)!
 
