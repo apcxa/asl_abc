@@ -29,7 +29,7 @@ This model used a dataset from a GitHub project by LoicMarie (Project Name: Sign
 `
 Substitute your input and output file names.
 
-Finding Your Input File Name: Drag and drop a test image or find an existing image if you downloaded the dataset. It is recommended to use a picture from the dataset to get the most accurate result, but you can test it on any image. Find the image wehre you drag and dropped it. Right click on the image and click "Copy Path". Paste into where "input_file.jpg" is in the command. 
+Finding Your Input File Name: Drag and drop a test image or find an existing image if you downloaded the dataset. It is recommended to use a picture from the dataset to get the most accurate result, but you can test it on any image. Find the image where you dragged and dropped it. Right click on the image and click "Copy Path". Paste into where "input_file.jpg" is in the command. 
 
 output_file.jpg is the name you want your ouput image to be. For example, Aresult1.jpg 
 
@@ -37,3 +37,5 @@ output_file.jpg is the name you want your ouput image to be. For example, Aresul
 6. Quick Tip: Pressing the up arrow will allow you to use the image prediction command multiple times without copying and pasting (you have to copy and paste it the first time)!
 
 [Video of Working Model](https://youtu.be/hMjLQokgAl8)
+
+[Video of Working Model - Simulating Working From Scratch and the Pre-Trained Model](https://youtu.be/LlArZASd4Iw)
