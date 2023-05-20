@@ -12,11 +12,13 @@ This model used a dataset from a GitHub project by LoicMarie (Project Name: Sign
 
 ## Running this project
 
-1. (optional for retraining model from scratch) Follow all the steps in the Google Colab - all steps for getting all the files, training the model, and exporting are all in there. [Google Colab Notebook Link - ASL](https://colab.research.google.com/drive/1ld_ep21-Ex49o_1cWYhzghTiafUBDQXk?usp=sharing)
+### Optional: Re-Training the Model From Scratch 
+1. Follow all the steps in the Google Colab - all steps for getting all the files, training the model, and exporting are all in there. [Google Colab Notebook Link - ASL](https://colab.research.google.com/drive/1ld_ep21-Ex49o_1cWYhzghTiafUBDQXk?usp=sharing)
 ---
-1. (to use the pre-trained model) first, make sure the jetson inference project is set up (set up jetson inference project linked here: [Jetson Inference GitHub](https://github.com/dusty-nv/jetson-inference))
+### Using the Pre-Trained Model (Recommended)
+1. First, make sure the jetson inference project is set up (set up jetson inference project linked here: [Jetson Inference GitHub](https://github.com/dusty-nv/jetson-inference))
 2. All required libraries in order to train the model are in the requirements.txt 
-3. Open Jetson Inference and in the terminal use the command `git clone https://github.com/apcxa/asl_abc.git`
+3. Open the Jetson Inference folder in VS Code and in the terminal use the command `git clone https://github.com/apcxa/asl_abc.git`
 4. Using `ls`, you should see a folder named "asl_abc"
 5. Type `cd asl_abc/` to move directories.
 6. Using `ls`, you should see 8 files (nuswide.py, onnx_export.py, onnx_validate.py, readme.md, requirements.txt, reshape.py, train.py, voc.py) and a folder named "model" 
@@ -39,3 +41,5 @@ output_file.jpg is the name you want your ouput image to be. For example, Aresul
 [Video of Working Model](https://youtu.be/hMjLQokgAl8)
 
 [Video of Working Model - Simulating Working From Scratch and the Pre-Trained Model](https://youtu.be/LlArZASd4Iw)
+
+[Link to Dataset ZIP File - unzip this on your computer to test images. following the steps for using the PRE-TRAINED MODEL](https://drive.google.com/file/d/1QuE0X-WaNOxC5QAFjvEK-46xM2xz-qtf/view?usp=share_link)
