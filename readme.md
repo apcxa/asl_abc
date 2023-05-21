@@ -38,8 +38,6 @@ output_file.jpg is the name you want your ouput image to be. For example, Aresul
 
 6. Quick Tip: Pressing the up arrow will allow you to use the image prediction command multiple times without copying and pasting (you have to copy and paste it the first time)!
 
-[Video of Working Model](https://youtu.be/hMjLQokgAl8)
-
-[Video of Working Model - Simulating Working From Scratch and the Pre-Trained Model](https://youtu.be/LlArZASd4Iw)
+[Video of Working Model](https://youtu.be/I5Wovvr9eCw)
 
 [Link to Dataset ZIP File - unzip this on your computer to test images. following the steps for using the PRE-TRAINED MODEL](https://drive.google.com/file/d/1QuE0X-WaNOxC5QAFjvEK-46xM2xz-qtf/view?usp=share_link)
