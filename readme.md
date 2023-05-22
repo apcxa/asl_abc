@@ -1,6 +1,6 @@
 # Sign Language Translator Project 
 
-This project uses still images to recognize different sign language letters.
+This project uses still images to recognize different sign language letters, excluding 'J' and 'Z' due to motion.
 
 ![result image of the model predicting a picture of the letter 'e'](https://github.com/apcxa/asl_abc/assets/133288638/80ff687f-109c-4c87-bec6-1384edc22109 "Image of Working Model") 
 
@@ -31,7 +31,7 @@ This model used a dataset from a GitHub project by LoicMarie (Project Name: Sign
 `
 Substitute your input and output file names.
 
-Finding Your Input File Name: Drag and drop a test image or find an existing image if you downloaded the dataset. It is recommended to use a picture from the dataset to get the most accurate result, but you can test it on any image. Find the image where you dragged and dropped it. Right click on the image and click "Copy Path". Paste into where "input_file.jpg" is in the command. 
+Finding Your Input File Name: Drag and drop a test image or find an existing image if you downloaded the dataset. It is recommended to use a picture from the folder in GitHub named 'test_images' to get the most accurate result, but you can test it on any image. Find the image where you dragged and dropped it. Right click on the image and click "Copy Path". Paste into where "input_file.jpg" is in the command. 
 
 output_file.jpg is the name you want your ouput image to be. For example, Aresult1.jpg 
 
